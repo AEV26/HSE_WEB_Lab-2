@@ -1,0 +1,28 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.city-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.city-list li {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.city-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.city-details {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
